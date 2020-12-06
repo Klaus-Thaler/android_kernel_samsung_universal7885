@@ -46,13 +46,6 @@
 							mnt_flags = "ro";
 							fsmgr_flags = "wait";
 						};
-						system {
-							compatible = "android,product";
-							dev = "/dev/block/platform/13500000.dwmmc0/by-name/system";
-							type = "ext4";
-							mnt_flags = "ro";
-							fsmgr_flags = "wait";
-						};
 					};
 				};
 			};
